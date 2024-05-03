@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router";
+// import { useNavigate } from "react-router";
 import { setUser } from "../features/userSlice";
 
 const Login = ({login, setLogin}) => {
@@ -14,7 +14,7 @@ const Login = ({login, setLogin}) => {
 
 
     const dispatch = useDispatch()
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
 
     // event : olay

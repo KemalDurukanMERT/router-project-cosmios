@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 
 const People = () => {
@@ -64,7 +64,7 @@ const People = () => {
             
             >
 
-              <img src={avatar} />
+              <img src={avatar} alt="profile-foto" />
               <h6>{first_name} {last_name}</h6>
             </div>
           ) 
