@@ -38,8 +38,8 @@ const PersonDetail = () => {
     }
 
     useEffect(() => {
-        getPerson()
-    }, [])
+        getPerson(id)
+    }, [id])
 
 
     if (error){
@@ -51,7 +51,7 @@ const PersonDetail = () => {
     return (
         <div className="container text-center">
             <h3>{person?.first_name} {person?.last_name}</h3>
-            <img src={person?.avatar} />
+            <img src={person?.avatar} alt="person-profile" />
             <p>{person?.email}</p>
             <div>
                 <button className="btn btn-success me-2" onClick={()=> navigate("/")}>Go Home</button>
