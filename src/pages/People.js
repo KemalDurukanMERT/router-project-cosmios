@@ -39,7 +39,7 @@ const People = () => {
 
   useEffect(() => {
     getPeople();
-  }, [getPeople]);
+  }, []);
 
   return (
     <div className="container text-center mt-4">

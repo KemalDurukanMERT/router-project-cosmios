@@ -22,7 +22,7 @@ const PersonDetail = () => {
     const [error, setError] = useState(false)
 
 
-    const getPerson = async () => {
+    const getPerson = async (id) => {
 
         try {
 
@@ -39,7 +39,7 @@ const PersonDetail = () => {
 
     useEffect(() => {
         getPerson()
-    }, [getPerson])
+    }, [])
 
 
     if (error){
