@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.login{
+  margin: auto;
+  max-width: 500px;
+  margin-top: 3rem;
+}
