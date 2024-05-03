@@ -39,7 +39,7 @@ const PersonDetail = () => {
 
     useEffect(() => {
         getPerson()
-    }, [])
+    }, [getPerson])
 
 
     if (error){
